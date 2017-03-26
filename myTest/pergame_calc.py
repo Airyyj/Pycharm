@@ -1,7 +1,7 @@
 #-*- coding:utf-8 -*-
 from Tkinter import *
 import tkMessageBox
-
+#刚才没有push
 def get_Tk():
     top = Tk()
     return top
