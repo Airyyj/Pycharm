@@ -27,6 +27,7 @@ def show_result(top,re_sum,re_add,add_Num,times):
     top_show.title("英伦果收益计算结果")
     top_show.geometry('300x240+810+420')
 
+    #设置 输入框只读属性 state = 'readonly'
     addNum = Label(top_show, text='第%d天增长数：' % times)
     addNum.pack()
     num_text = StringVar()
